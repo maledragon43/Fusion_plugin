@@ -1,11 +1,11 @@
 {
 	"autodeskProduct":	"Fusion",
 	"type":	"addin",
-	"author":	"",
+	"author":	"Syed Mahatab Uddin Ahmed",
 	"description":	{
 		"":	""
 	},
-	"version":	"",
+	"version":	"1.01",
 	"runOnStartup":	false,
 	"supportedOS":	"windows|mac",
 	"editEnabled":	true,
