@@ -6,8 +6,8 @@ from pathlib import Path
 _handlers = []
 
 # Preferred log path order
-# _PRIMARY      = Path("D:/New folder (3)/fusion_event_log.csv")
-_PRIMARY      = Path.home() / "Desktop" / "fusion_event_log.csv"
+_PRIMARY      = Path("D:/New folder (3)/fusion_event_log.csv")
+# _PRIMARY      = Path.home() / "Desktop" / "fusion_event_log.csv"
 _FALLBACK_DIR = Path("D:/New folder (3)/FusionLogs")
 _DESKTOP      = Path.home() / "Desktop" / "fusion_event_log.csv"
 _log_file: Path = None  # resolved in run()
